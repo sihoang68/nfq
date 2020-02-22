@@ -4,7 +4,8 @@
   "license": "ISC",
   "scripts": {
     "start:dev": "next -p $PORT",
-    "start:product": "next build && next start -p $PORT"
+    "start:product": "next build && next start -p $PORT",
+    "heroku-postbuild": "npm run start:product"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
