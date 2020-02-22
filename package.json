@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "ISC",
   "scripts": {
-    "start:dev": "next -p 8080",
-    "start:product": "next build && next start -p 8080"
+    "start:dev": "next -p $PORT",
+    "start:product": "next build && next start -p $PORT"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
