@@ -1,0 +1,41 @@
+body {
+    font-family:  $primaryFont;
+    font-size:    16px;
+    color:        $primaryColor;
+    margin: 0;
+    padding: 0;
+    // background: url('../../bg3.png');
+    background-size: 100%;
+} 
+h1,h2, h3,h4,h5,h6 {
+  display: inline-block;
+}
+.row {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.btn {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  color: #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+.clearFix {
+  clear: both;
+}
+.link {
+  text-decoration: none;
+  color: #784dc0;
+}
